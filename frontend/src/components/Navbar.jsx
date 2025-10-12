@@ -34,7 +34,11 @@ function Navbar() {
             </div>
 
             <div className='hidden md:block'>
-              <label className="input">
+              <label className="flex items-center border border-gray-300 px-2 py-2 rounded-md">
+                <input type="search" 
+                  className=' outline-none ' 
+                  required placeholder="Search" 
+                  />
                 <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <g
                     strokeLinejoin="round"
@@ -47,12 +51,11 @@ function Navbar() {
                     <path d="m21 21-4.3-4.3"></path>
                   </g>
                 </svg>
-                <input type="search" className="grow" placeholder="Search" />
-                <kbd className="kbd kbd-sm">⌘</kbd>
-                <kbd className="kbd kbd-sm">K</kbd>
               </label>
             </div>
 
+
+            {/* theme controler */}
             <div>
               <label className="swap swap-rotate">
                 {/* this hidden checkbox controls the state */}
