@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "Lorem ipsum dolor sit amet",
+    "price": 0,
+    "category": "free",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Adventure Tales",
+    "title": "Exciting adventures for young readers",
+    "price": 5,
+    "category": "food",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Science Facts",
+    "title": "Interesting science facts explained",
+    "price": 3,
+    "category": "paid",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fairy Stories",
+    "title": "Magical stories for children",
+    "price": 0,
+    "category": "free",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 5,
+    "name": "History Tales",
+    "title": "Stories from ancient history",
+    "price": 4,
+    "category": "paid",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mystery Novel",
+    "title": "A thrilling mystery story",
+    "price": 6,
+    "category": "food",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Cooking Guide",
+    "title": "Easy recipes for beginners",
+    "price": 0,
+    "category": "free",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Poetry Collection",
+    "title": "Beautiful poems from around the world",
+    "price": 2,
+    "category": "paid",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Travel Diary",
+    "title": "Journeys and adventures worldwide",
+    "price": 5,
+    "category": "paid",
+    "image": "./books.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Art Book",
+    "title": "Inspiring artwork and sketches",
+    "price": 0,
+    "category": "free",
+    "image": "./book.jpg"
+  }
+]
+
+
