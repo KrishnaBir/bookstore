@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Story Book",
-    "title": "Lorem ipsum dolor sit amet",
+    "title": "shoes",
     "price": 0,
     "category": "free",
     "image": "./books.jpg"
@@ -77,7 +77,7 @@
     "title": "Inspiring artwork and sketches",
     "price": 0,
     "category": "free",
-    "image": "./book.jpg"
+    "image": "./books.jpg"
   }
 ]
 
