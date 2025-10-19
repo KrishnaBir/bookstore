@@ -23,7 +23,6 @@ function Freebook() {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
-    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -31,25 +30,25 @@ function Freebook() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
 
@@ -62,7 +61,7 @@ function Freebook() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat rerum qui maxime vero sint illum inventore. Iste impedit voluptas excepturi unde? Magnam nobis laboriosam ea voluptates natus. Dolorum, unde!</p>
         </div>
 
-        <div>
+        <div className='mt-4'>
           <Slider {...settings}>
             {filterData.map((item) => (
               <Cards item = {item} key={item.id}/>
