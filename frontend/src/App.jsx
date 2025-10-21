@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './components/home/home.jsx'
-import Course from './components/Course.jsx'
+import Courses from './components/courses/Courses.jsx'
 import { Route, Routes } from "react-router-dom"
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/course' element={<Course/>} />
+        <Route path='/course' element={<Courses/>} />
       </Routes>
 
 
