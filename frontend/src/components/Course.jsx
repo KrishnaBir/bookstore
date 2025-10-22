@@ -1,10 +1,13 @@
 import React from 'react'
+import Cards from './Cards'
+import list from '../../public/list.json'
 
 function Course() {
+  console.log(list);
   return (
     <>
       <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
-        <div className='mt-24 items-center justify-center text-center'>
+        <div className='mt-24 items-center  justify-center text-center'>
           <h1 className='text-2xl md:text-4xl'>
             We are delighted to have you <span className='text-pink-500'>here</span> 
           </h1>
@@ -16,8 +19,19 @@ function Course() {
 
         </div>
 
+        <div>
+          
+          {list.map((item) => (
+              <Cards item = {item} key={item.id}/>
+            ))}
+
+          
+        </div>
+
         
-      </div>      
+      </div>
+      
+            
     </>
   )
 }

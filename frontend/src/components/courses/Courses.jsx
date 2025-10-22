@@ -3,11 +3,9 @@ import Navbar from '../Navbar.jsx'
 import Footer from '../Footer.jsx'
 import Course from '../Course.jsx'
 
-import list from '../../../public/list.json'
-
 
 function Courses() {
-  // console.log(list);
+  
   return (
     <>
       <Navbar/>
