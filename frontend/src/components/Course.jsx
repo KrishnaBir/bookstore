@@ -9,7 +9,13 @@ function Course() {
             We are delighted to have you <span className='text-pink-500'>here</span> 
           </h1>
           <p className='mt-12'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officia deserunt laudantium. Laudantium expedita vitae enim doloremque exercitationem repellat quo quia, recusandae iste modi architecto, necessitatibus, optio ad sed quae.</p>
+
+          <button className='bg-pink-500 cursor-pointer text-white px-3 py-2 rounded-md mt-6
+          hover:bg-pink-800 duration-300
+          '>Back</button> 
+
         </div>
+
         
       </div>      
     </>
