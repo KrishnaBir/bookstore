@@ -61,7 +61,7 @@ function Freebook() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat rerum qui maxime vero sint illum inventore. Iste impedit voluptas excepturi unde? Magnam nobis laboriosam ea voluptates natus. Dolorum, unde!</p>
         </div>
 
-        <div className='mt-4'>
+        <div className=''>
           <Slider {...settings}>
             {filterData.map((item) => (
               <Cards item = {item} key={item.id}/>
