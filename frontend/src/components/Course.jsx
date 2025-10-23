@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from './Cards'
 import list from '../../public/list.json'
+import { Link } from 'react-router-dom';
 
 function Course() {
   console.log(list);
@@ -13,9 +14,13 @@ function Course() {
           </h1>
           <p className='mt-12'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem officia deserunt laudantium. Laudantium expedita vitae enim doloremque exercitationem repellat quo quia, recusandae iste modi architecto, necessitatibus, optio ad sed quae.</p>
 
-          <button className='bg-pink-500 cursor-pointer text-white px-3 py-2 rounded-md mt-6
+          <Link to="/">
+            <button className='bg-pink-500 cursor-pointer text-white px-3 py-2 rounded-md mt-6
           hover:bg-pink-800 duration-300
-          '>Back</button> 
+          '>Back</button>
+          </Link>
+
+          
 
         </div>
 
