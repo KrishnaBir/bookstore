@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Signup() {
   return (
     <>
-      <div className='flex h-screen items-center justify-around'>
+      <div className='flex h-screen items-center justify-center'>
         <div id="my_modal_3" className="border-[2px] rounded-md p-5 shadow-md">
           <div className="">
             <form method="div">
