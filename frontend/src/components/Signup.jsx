@@ -4,14 +4,23 @@ import { Link } from 'react-router-dom'
 function Signup() {
   return (
     <>
-      <div>
-        <div id="my_modal_3" className="">
+      <div className='flex h-screen items-center justify-around'>
+        <div id="my_modal_3" className="border-[2px] rounded-md p-5 shadow-md">
           <div className="">
             <form method="div">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
             </form>
-            <h3 className="font-bold text-lg">login</h3>
+            <h3 className="font-bold text-lg">Signup</h3>
+
+            <div className='mt-4 space-y-2'>
+              <span>Name</span>
+              <br />
+              <input type="text"
+                placeholder="Enter fullname"
+                className='w-80 px-3 py-1 border outline-none rounded-md'
+              />
+            </div>
 
             <div className='mt-4 space-y-2'>
               <span>Email</span>
@@ -32,12 +41,12 @@ function Signup() {
             </div>
 
             <div className='flex justify-around mt-4'>
-              <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>Login</button>
+              <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>Signup</button>
               <p>
-                not register?
+                have account?
                 <Link
-                  to={"/signup"}
-                  className='underline text-blue-500 cursor-pointer'>Signup</Link>
+                  to={"/"}
+                  className='underline text-blue-500 cursor-pointer'>Login</Link>
               </p>
             </div>
 
