@@ -5,11 +5,11 @@ function Signup() {
   return (
     <>
       <div className='flex h-screen items-center justify-center'>
-        <div id="my_modal_3" className="border-[2px] rounded-md p-5 shadow-md">
+        <div id="my_modal_3" className="border-[2px] rounded-md p-5 shadow-md w-[600px] relative ">
           <div className="">
             <form method="div">
               {/* if there is a button in form, it will close the modal */}
-              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+              <Link to={"/"} className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
             </form>
             <h3 className="font-bold text-lg">Signup</h3>
 
