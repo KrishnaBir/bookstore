@@ -4,6 +4,8 @@ import Courses from './components/courses/Courses.jsx'
 
 import Signup from './components/Signup.jsx'
 
+import Contact from './components/contact/contact.jsx'
+
 import { Route, Routes } from "react-router-dom"
 
 const App = () => {
@@ -13,6 +15,7 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/course' element={<Courses/>} />
         <Route path='/signup' element={<Signup/>} />
+        <Route path='/contact' element={<Contact/>} />
 
 
       </Routes>
