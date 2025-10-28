@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from '../navbar'
+import ContactUs from './ContactUs'
+import Footer from '../Footer'
 
 function Contact() {
   return (
-    <div>
-      contact page
-    </div>
+    <>
+      <Navbar/>
+      <ContactUs/>
+      <Footer/>
+    </>
   )
 }
 
